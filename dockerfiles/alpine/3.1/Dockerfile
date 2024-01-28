@@ -1,4 +1,4 @@
-FROM alpine:3.1
+FROM alpine:3.18.6
 MAINTAINER Marlus Saraiva <marlus.saraiva@gmail.com>
 
 RUN apk --update add ncurses-libs && rm -rf /var/cache/apk/*
